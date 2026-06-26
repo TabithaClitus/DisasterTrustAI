@@ -1,17 +1,57 @@
 <div align="center">
 
+<img src="https://img.shields.io/badge/DisasterTrust-AI-FF4444?style=for-the-badge&logo=shield&logoColor=white" alt="DisasterTrust AI" height="40"/>
+
 # 🛡️ DisasterTrust AI
 
 ### Community-Powered Disaster Response with AI Confidence Scoring
 
-[![MIT License](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
-[![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)](https://www.typescriptlang.org)
-[![OpenStreetMap](https://img.shields.io/badge/Map-OpenStreetMap-green?logo=openstreetmap)](https://www.openstreetmap.org)
-[![Status](https://img.shields.io/badge/Status-MVP%20Live-brightgreen)]()
+[![MIT License](https://img.shields.io/badge/License-MIT-red.svg?style=flat-square)](LICENSE)
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)](https://nextjs.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev)
+[![OpenStreetMap](https://img.shields.io/badge/Map-OpenStreetMap-7EBC6F?style=flat-square&logo=openstreetmap&logoColor=white)](https://www.openstreetmap.org)
+[![Status](https://img.shields.io/badge/Status-MVP%20Live-00C853?style=flat-square)](https://github.com/TabithaClitus/DisasterTrustAI)
 
-> **"When every second counts, trust matters."**  
-> The only disaster response platform that scores the credibility of every emergency report — before volunteers respond.
+<br/>
+
+> **"When every second counts, trust matters."**
+>
+> India's first AI-powered disaster response platform that scores the credibility of every emergency report — before volunteers respond.
+
+<br/>
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/TabithaClitus/DisasterTrustAI)
+&nbsp;&nbsp;
+[![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/TabithaClitus/DisasterTrustAI)
+
+</div>
+
+---
+
+## 📸 Screenshots
+
+<div align="center">
+
+### 🏠 Landing Page — Live Incident Feed & Trust Score Innovation
+
+![Landing Page](./public/screenshots/screenshot_landing.png)
+
+### 🆘 Emergency Reporting Wizard — Live Camera + GPS Auto-Lock
+
+![Report Emergency](./public/screenshots/screenshot_report.png)
+
+### 🤝 Volunteer Dashboard — AI-Prioritized Mission Queue
+
+![Volunteer Dashboard](./public/screenshots/screenshot_volunteer.png)
+
+### 🏥 NGO Resource Portal — Real-Time Supply Availability
+
+![NGO Portal](./public/screenshots/screenshot_ngo.png)
+
+### 👮 Admin Command Center — Full Situational Awareness
+
+![Admin Dashboard](./public/screenshots/screenshot_admin.png)
 
 </div>
 
@@ -21,11 +61,9 @@
 
 During floods, cyclones, and earthquakes, information is scattered across:
 
-- WhatsApp groups
-- Telegram channels
-- Phone calls
-- Social media posts
-- News channels
+- 📱 WhatsApp groups & Telegram channels
+- 📞 Phone calls & social media posts
+- 📺 News channels — often delayed or unverified
 
 This creates **two critical failures**:
 
@@ -52,25 +90,25 @@ People share **old flood videos**, **wrong locations**, and **false rescue reque
 ### 🆘 Live Emergency Reporting
 Citizens report emergencies through a guided 4-step wizard. The platform enforces live camera capture — **no gallery uploads allowed**. GPS and timestamp are captured and locked automatically.
 
-### 🔒 AI Confidence Scoring (Our Innovation)
+### 🔒 AI Confidence Scoring *(Our Core Innovation)*
 Every report is scored based on evidence quality:
 
 | Evidence | Points |
 |---|---|
-| 📹 Live Video (camera-only) | +35 pts |
+| 📹 Live Video (camera-only, no gallery) | +35 pts |
 | 📍 GPS Location (auto-locked) | +25 pts |
-| 🕐 Server Timestamp (locked) | +15 pts |
-| 📝 Description | +10 pts |
+| 🕐 Server Timestamp (tamper-proof) | +15 pts |
+| 📝 Detailed Description | +10 pts |
 | 👥 Community Confirmations | +10 pts |
 | ✅ Volunteer Verified | +5 pts |
 | **Maximum Trust Score** | **100%** |
 
 ### 🤖 AI Priority Classification
 Every report is automatically classified into:
-- **CRITICAL** — Immediate life threat (rescue needed, rising water, medical emergency)
-- **HIGH** — Urgent but not immediately life-threatening
-- **MEDIUM** — Resource needs (food, water, shelter)
-- **LOW** — Minor or unconfirmed situations
+- 🔴 **CRITICAL** — Immediate life threat (rescue needed, rising water, medical emergency)
+- 🟠 **HIGH** — Urgent but not immediately life-threatening
+- 🟡 **MEDIUM** — Resource needs (food, water, shelter)
+- 🟢 **LOW** — Minor or unconfirmed situations
 
 ### 🗺️ Live Disaster Map
 Real-time OpenStreetMap view with color-coded incident markers — rescues, medical emergencies, food distribution points, and NGO resources all visible in one place.
@@ -79,7 +117,7 @@ Real-time OpenStreetMap view with color-coded incident markers — rescues, medi
 Volunteers see AI-prioritized reports sorted by confidence score. Accept requests, mark en-route, and complete rescues — full status tracking.
 
 ### 🏥 NGO Resource Portal
-NGOs post available food, water, medical supplies, shelter, and rescue equipment. Citizens and volunteers can see availability in real-time.
+NGOs post available food, water, medical supplies, shelter, and rescue equipment. Citizens and volunteers see availability in real-time.
 
 ### 👮 Admin Command Center
 Full situational awareness with live statistics, critical alert banners, map overview, and incident feed. Auto-refreshes every 30 seconds.
@@ -181,6 +219,8 @@ DisasterTrustAI/
 │       └── admin/
 │           ├── page.tsx             # Admin command center
 │           └── LiveMap.tsx          # Leaflet map component
+├── public/
+│   └── screenshots/                 # App screenshots
 ├── LICENSE
 ├── README.md
 └── package.json
@@ -190,7 +230,7 @@ DisasterTrustAI/
 
 ## 👥 User Roles
 
-| Role | Access | Purpose |
+| Role | Route | Purpose |
 |---|---|---|
 | 🆘 **Citizen** | `/report` | Submit emergency reports with live evidence |
 | 🤝 **Volunteer** | `/volunteer` | View, accept, and complete rescue requests |
@@ -227,11 +267,17 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 | Route | Page |
 |---|---|
-| `/` | Landing Page |
-| `/report` | Report Emergency |
-| `/volunteer` | Volunteer Dashboard |
-| `/ngo` | NGO Resource Portal |
-| `/admin` | Admin Command Center |
+| `/` | Landing Page — Live incident feed & stats |
+| `/report` | Report Emergency — 4-step guided wizard |
+| `/volunteer` | Volunteer Dashboard — AI-prioritized missions |
+| `/ngo` | NGO Resource Portal — Post & view supplies |
+| `/admin` | Admin Command Center — Full map + feed |
+
+### One-Click Deploy
+
+Deploy your own instance to Vercel in seconds:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/TabithaClitus/DisasterTrustAI)
 
 ---
 
@@ -284,7 +330,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 👩‍💻 Author
 
-**Tabitha Merin Clitus**  
+**Tabitha Merin Clitus**
 GitHub: [@TabithaClitus](https://github.com/TabithaClitus)
 
 ---
@@ -296,5 +342,9 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ---
 
 <div align="center">
+
 Built with ❤️ to save lives.
+
+⭐ Star this repo if you find it useful!
+
 </div>
