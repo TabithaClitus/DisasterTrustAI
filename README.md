@@ -6,12 +6,13 @@
 
 ### Community-Powered Disaster Response with AI Confidence Scoring
 
+[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-disaster--trust--ai.vercel.app-FF4444?style=flat-square)](https://disaster-trust-ai.vercel.app)
 [![MIT License](https://img.shields.io/badge/License-MIT-red.svg?style=flat-square)](LICENSE)
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev)
 [![OpenStreetMap](https://img.shields.io/badge/Map-OpenStreetMap-7EBC6F?style=flat-square&logo=openstreetmap&logoColor=white)](https://www.openstreetmap.org)
-[![Status](https://img.shields.io/badge/Status-MVP%20Live-00C853?style=flat-square)](https://github.com/TabithaClitus/DisasterTrustAI)
+[![Status](https://img.shields.io/badge/Status-Live%20on%20Vercel-00C853?style=flat-square&logo=vercel)](https://disaster-trust-ai.vercel.app)
 
 <br/>
 
@@ -21,9 +22,17 @@
 
 <br/>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/TabithaClitus/DisasterTrustAI)
+**[🚀 View Live App →](https://disaster-trust-ai.vercel.app)**
+
+<br/>
+
+[![Live App](https://img.shields.io/badge/Open%20Live%20App-disaster--trust--ai.vercel.app-FF4444?style=for-the-badge&logo=vercel&logoColor=white)](https://disaster-trust-ai.vercel.app)
 &nbsp;&nbsp;
 [![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/TabithaClitus/DisasterTrustAI)
+
+<br/>
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/TabithaClitus/DisasterTrustAI)
 
 </div>
 
